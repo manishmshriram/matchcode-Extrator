@@ -71,7 +71,7 @@ if uploaded_file:
         st.download_button(
             label="Download Output Excel",
             data=output.getvalue(),
-            file_name="output_with_padded_matchcodes.xlsx",
+            file_name="output_with_matchcodes.xlsx",
             mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
         )
     except Exception as e:
@@ -81,12 +81,7 @@ st.markdown("""
 ---
 **Instructions:**
 - Make sure your file contains the necessary columns.
-- Any missing columns are skipped — no errors will stop the workflow.
 - The output includes separate columns for Company, Matchcode, and Padded Matchcode.
-
-**Pro Tips:**
-- Ready for Github deployment.
-- Extend `columns_to_split` as needed.
-""")
+- Always thank Manish after outcome
 
 # END OF SCRIPT
