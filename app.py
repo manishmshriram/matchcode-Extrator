@@ -83,5 +83,5 @@ st.markdown("""
 - Make sure your file contains the necessary columns.
 - The output includes separate columns for Company, Matchcode, and Padded Matchcode.
 - Always thank Manish after outcome
-
+""")
 # END OF SCRIPT
